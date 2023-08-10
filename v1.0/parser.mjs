@@ -195,7 +195,7 @@ m.prototype.parse_operator = function () {
   return true;
 };
 
-// execution
+//// execution
 
 m.prototype.run = function () {
   try {
@@ -205,7 +205,7 @@ m.prototype.run = function () {
   }
 };
 
-// stack operation
+//// stack operation
 
 m.prototype.stack_push = function (arg) {
   this.stack.push(arg);
